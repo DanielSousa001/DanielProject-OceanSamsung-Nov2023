@@ -9,7 +9,7 @@ const item1 = {
 
   const item2 = {
     name: 'Rick Sanchez',
-    imageUrl: 'https://rickmortyapi.com/apicharacter/avatar/1.jpeg'
+    imageUrl: 'https://rickmortyapi.com/apicharacter/avatar/2.jpeg'
 }
 
   return (
