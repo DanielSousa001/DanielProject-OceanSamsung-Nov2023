@@ -1,21 +1,24 @@
 import './App.css'
+import Card from './components/Card/Card';
 
 function App() {
+const item1 = {
+  name: 'Rick Sanchez',
+  imageUrl: 'https://rickmortyapi.com/apicharacter/avatar/1.jpeg'
+}
+
+  const item2 = {
+    name: 'Rick Sanchez',
+    imageUrl: 'https://rickmortyapi.com/apicharacter/avatar/1.jpeg'
+}
+
   return (
     <>
-     <div classname='card'>
-      <h2>Rick Sanchez</h2>
-     <div classname='tags'>
-      <div classname='tags'>Status: Vivo</ div>
-      <div classname='tags'><Espécie: Hmana</ div>  
-      <div classname='tags'>Origem: Terra C-137</ div>
-     </div>
-     <img src='https://rickandmortyapi.com/api/character/avatar/1.jpeg' />
-   </div>
-   <br />
-   </>
+      <br />
+      <Card item={item1} />
+      <Card item={item2} />
+    </>
   )
 }
 
 export default App;
-
