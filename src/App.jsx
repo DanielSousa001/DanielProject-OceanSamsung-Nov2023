@@ -8,7 +8,7 @@ const item1 = {
 }
 
   const item2 = {
-    name: 'Morty smith',
+    name: 'Morty Smith',
     imageUrl: 'https://rickmortyapi.com/apicharacter/avatar/2.jpeg'
 }
 
